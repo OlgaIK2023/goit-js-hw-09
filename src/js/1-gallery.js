@@ -1,3 +1,5 @@
+const { default: simpleLightbox } = require("simplelightbox");
+
 const images = [
     {
       preview:
@@ -89,7 +91,7 @@ const images = [
   
   galleryList.innerHTML = markup;
   
-  const modalImage = basicLightbox.create(`<img src=''>`, {
+  const modalImage = simpleLightbox.create(`<img src=''>`, {
     onShow: (modalImage) => {
       window.addEventListener("keydown", closeModalWindow);
     },
