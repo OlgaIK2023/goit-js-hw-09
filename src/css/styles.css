@@ -98,7 +98,7 @@ textarea {
   outline: 0;
 
   border-radius: 4px;
-  padding: 16px;
+  padding: 8px;
   background-color: #fff;
   
 
@@ -106,10 +106,10 @@ textarea {
   font-family: Montserrat;
 }
 
-.feedback-form .email, .feedback-form .message {
+.feedback-form label, .feedback-form label {
   display: flex;
   flex-direction: column;
-  margin-bottom: 24px;
+  margin-bottom: 8px;
   width: 100%;
 
   color: #2E2F42;;
@@ -146,7 +146,12 @@ width: 95px;
 height: 40px;
 font-weight: 500;
 color: #fff;
+font-family: Montserrat;
+font-size: 16px;
+font-style: normal;
 
+line-height: 1.5;
+letter-spacing: 0.64px;
 }
 
 
@@ -172,12 +177,15 @@ textarea {
 }
 
 button:hover {
-  box-shadow: -2px -2px 5px #fff, 2px 2px 5px #babecc;
+ 
+  background-color: #6C8CFF;
+
+  ;
 }
 
-button:active {
+/* button:active {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
-}
+} */
 
 textarea {
   resize: none;
