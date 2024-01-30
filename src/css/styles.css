@@ -103,10 +103,10 @@ textarea {
   
 
   font-size: 16px;
-  font: inherit;
+  font-family: Montserrat;
 }
 
-.feedback-form email, .feedback-form message {
+.feedback-form .email, .feedback-form .message {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
@@ -116,6 +116,13 @@ textarea {
   font-family: Montserrat;
   font-size: 16px;
   font-weight: 400;
+
+
+font-style: normal;
+
+line-height: 1.5;
+letter-spacing: 0.64px;
+
 }
 
 
@@ -155,13 +162,13 @@ textarea {
 
 .feedback-form button {
   padding: 8px 12px;
-  color: #61677c;
+  color: #fff;
   font-weight: bold;
   
   transition: all 0.2s ease-in-out;
   cursor: pointer;
-  font-weight: 600;
-  font: inherit;
+  font-weight: 500;
+  font-family: Montserrat;
 }
 
 button:hover {
