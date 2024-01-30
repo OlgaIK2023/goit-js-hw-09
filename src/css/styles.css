@@ -72,10 +72,10 @@ ul {
 /* form styles */
 
 .feedback-form {
-  /* 
+   
   background-color: #fff;
   border: 1px solid rgba(0, 0, 0, 0.12);
-  border-radius: 4px; */
+  border-radius: 8px;
 
   /* position:absolute;
   left:50%;
@@ -85,12 +85,10 @@ ul {
   flex-direction: column;
 
   padding: 12px;
-  max-width: 480px;
+  max-width: 408px;
   margin: 0 auto;
 
-  border-radius: 4px;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
-  background-color: transparent;
+    
 }
 
 button,
@@ -99,33 +97,53 @@ textarea {
   border: 0;
   outline: 0;
 
-  border-radius: 320px;
+  border-radius: 4px;
   padding: 16px;
-  background-color: #ebecf0;
-  text-shadow: 1px 1px 0 #fff;
+  background-color: #fff;
+  
 
   font-size: 16px;
   font: inherit;
 }
 
-.feedback-form label {
+.feedback-form email, .feedback-form message {
   display: flex;
   flex-direction: column;
   margin-bottom: 24px;
   width: 100%;
 
-  color: #babecc;
-  text-shadow: 1px 1px 1px #fff;
+  color: #2E2F42;;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 400;
 }
+
+
+
+
 
 input,
 textarea {
   margin-right: 8px;
-  box-shadow: inset 2px 2px 5px #babecc, inset -5px -5px 10px #fff;
+  
   width: 100%;
   box-sizing: border-box;
   transition: all 0.2s ease-in-out;
+  border: 1px solid #808080;
+
 }
+
+button {
+background-color: #4E75FF;
+width: 95px;
+height: 40px;
+font-weight: 500;
+color: #fff;
+
+}
+
+
+
 input:focus,
 textarea:focus {
   box-shadow: inset 1px 1px 2px #babecc, inset -1px -1px 2px #fff;
@@ -139,7 +157,7 @@ textarea {
   padding: 8px 12px;
   color: #61677c;
   font-weight: bold;
-  box-shadow: -5px -5px 20px #fff, 5px 5px 20px #babecc;
+  
   transition: all 0.2s ease-in-out;
   cursor: pointer;
   font-weight: 600;
