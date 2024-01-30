@@ -7,4 +7,4 @@ import{S as i}from"./vendor-870f0eb5.js";const e=[{preview:"https://cdn.pixabay.
     />
   </a>
 `).join("")}new i(".gallery a",{captionsData:"alt",captionPosition:"bottom",captionDelay:250});
-//# sourceMappingURL=1-gallery-423dff65.js.map
+//# sourceMappingURL=1-gallery-00975490.js.map
