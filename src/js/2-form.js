@@ -25,7 +25,7 @@ function reloadPage() {
 
 function onFormSubmit(e) {
   e.preventDefault();
-  console.log({ email: email.value, message: message.value });
+  console.log({ email: email.value.trim(), message: message.value.trim() });
 
   if (email.value === '' || message.value === '') {
     return alert('Please fill in all the fields!');
